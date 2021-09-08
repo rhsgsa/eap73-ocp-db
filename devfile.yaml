@@ -1,10 +1,10 @@
 apiVersion: 1.0.0
 metadata:
-  name: helloworld5l7a9
+  name: eap73-ocp-db
 projects:
-  - name: helloworld
+  - name: eap73-ocp-db
     source:
-      location: 'https://github.com/likhia/helloworld.git'
+      location: 'https://github.com/likhia/eap73-ocp-db.git'
       type: github
 components:
   - id: redhat/java11/latest
@@ -34,7 +34,7 @@ components:
 commands:
   - name: 1. Build
     actions:
-      - workdir: '${CHE_PROJECTS_ROOT}/helloworld'
+      - workdir: '${CHE_PROJECTS_ROOT}/eap73-ocp-db'
         type: exec
         command: MAVEN_OPTS="-Xmx200m" && mvn clean package
         component: maven

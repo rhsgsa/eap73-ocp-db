@@ -1,0 +1,5 @@
+org/jboss/as/quickstarts/register/MemberServlet.class
+org/jboss/as/quickstarts/register/MemberRegistrationServlet.class
+org/jboss/as/quickstarts/entity/Member_.class
+org/jboss/as/quickstarts/entity/RegistrationService.class
+org/jboss/as/quickstarts/entity/Member.class

@@ -36,5 +36,5 @@ commands:
     actions:
       - workdir: '${CHE_PROJECTS_ROOT}/eap73-ocp-db'
         type: exec
-        command: MAVEN_OPTS="-Xmx200m" && mvn clean package
+        command: MAVEN_OPTS="-Xmx200m" && mvn clean package --settings ./configuration/settings.xml
         component: maven
